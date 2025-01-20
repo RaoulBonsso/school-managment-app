@@ -1,3 +1,4 @@
+import AttendanceCart from "@/app/components/AttendanceCart";
 import CountChart from "@/app/components/CountChart";
 import UserCard from "@/app/components/UserCard";
 import React from "react";
@@ -10,9 +11,13 @@ const page = () => {
         {/* USER CARDS */}
         <div className="flex gap-4 justify-between flex-wrap">
           <UserCard type="student" />
-          <UserCard type="parents" />
-          <UserCard type="teachers" />
+          <UserCard type="parent" />
+          <UserCard type="teacher" />
           <UserCard type="staff" />
+          <UserCard type="staff" />
+          <UserCard type="staff" />
+          
+          
           <div className=""></div>
         </div>
         {/*MIDDLE CHARTS */}
@@ -22,7 +27,9 @@ const page = () => {
             <CountChart />
           </div>
           {/*ATTENDANCE CHARTS */}
-          <div className="w-full lg:w-2/3 h-[450px]"></div>
+          <div className="w-full lg:w-2/3 h-[450px]">
+          <AttendanceCart/>
+          </div>
         </div>
         {/*BOTTOM CHARTS */}
         <div className=""></div>

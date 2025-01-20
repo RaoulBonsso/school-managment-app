@@ -1,7 +1,7 @@
 "use client";
 
 import Image from "next/image";
-import React, { PureComponent } from "react";
+import React from "react";
 import {
   RadialBarChart,
   RadialBar,

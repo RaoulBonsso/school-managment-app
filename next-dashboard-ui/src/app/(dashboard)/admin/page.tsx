@@ -14,9 +14,6 @@ const page = () => {
           <UserCard type="parent" />
           <UserCard type="teacher" />
           <UserCard type="staff" />
-          <UserCard type="staff" />
-          <UserCard type="staff" />
-          
           
           <div className=""></div>
         </div>

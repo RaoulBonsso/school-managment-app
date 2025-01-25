@@ -15,8 +15,6 @@ const page = () => {
           <UserCard type="parent" />
           <UserCard type="teacher" />
           <UserCard type="staff" />
-          
-          <div className=""></div>
         </div>
         {/*MIDDLE CHARTS */}
         <div className=" flex gap-4 flex-col lg:flex-row">
@@ -30,8 +28,10 @@ const page = () => {
           </div>
         </div>
         {/*BOTTOM CHARTS */}
-        <div className="w-full h-[500px]"></div>
+        <div className="w-full h-[500px]">
         <FinanceChart/>
+        </div>
+        
       </div>
 
       {/*RIGHT*/}
